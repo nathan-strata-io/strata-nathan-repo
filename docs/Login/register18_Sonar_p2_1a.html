@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iofrm</title>
+    <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/nathan-strata-io/strata-nathan-repo/main/Login/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/nathan-strata-io/strata-nathan-repo/main/Login/css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/nathan-strata-io/strata-nathan-repo/main/Login/css/iofrm-style.css">
+    <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/nathan-strata-io/strata-nathan-repo/main/Login/css/iofrm-theme18.css">
+</head>
+<body>
+    <div class="form-body without-side">
+        
+        <div class="row">
+            <div class="img-holder">
+                <div class="bg"></div>
+               
+            </div>
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+						
+             		
+                        <h3>Select Work Replacement</h3>
+                        <p>Please select a profile to continue&nbsp;</p>
+                        <form>
+							<select class="form-control" label="Default select example">
+							  <option selected>Select a profile</option>
+							  <option value="1">Tire Inventory Admin</option>
+							  <option value="2">Vendor Relations Specialist</option>
+							 							</select>
+                            <div class="form-button">
+                                <button id="submit" type="submit" class="ibtn">Continue</button>
+                            </div>
+                        </form>
+						<article>
+				<div></div>
+				<button onclick="displayImage('https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png')">Show Image 1</button>
+				<button onclick="displayImage('https://maverics.strata.io/static/1695759810/images/maverics-logo.svg')">Show Image 2</button>
+			
+				<div id="image-container"></div>
+				<script>
+					// Function to display image
+					function displayImage(imageSrc) {
+						const imageContainer = document.getElementById('image-container');
+						
+						// Clear any existing images in the container
+						imageContainer.innerHTML = '';
+			
+						// Create new image element
+						const img = document.createElement('img');
+						img.src = imageSrc;
+						
+						// Append the image to the container
+						imageContainer.appendChild(img);
+					}
+				</script>
+				</article>
+                        
+                        </div>
+                </div>
+            </div>
+        </div>
+<script src="https://raw.githubusercontent.com/nathan-strata-io/strata-nathan-repo/main/Login/js/jquery.min.js"></script> 
+<script src="https://raw.githubusercontent.com/nathan-strata-io/strata-nathan-repo/main/Login/js/popper.min.js"></script> 
+<script src="https://raw.githubusercontent.com/nathan-strata-io/strata-nathan-repo/main/Login/js/bootstrap.min.js"></script> 
+<script src="https://raw.githubusercontent.com/nathan-strata-io/strata-nathan-repo/main/Login/js/main.js"></script>
+</body>
+</html>
