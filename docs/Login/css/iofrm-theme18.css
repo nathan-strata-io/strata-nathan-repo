@@ -36,7 +36,7 @@ body {
 }
 
 .website-logo .logo {
-    background-image: url("https://raw.githubusercontent.com/nathan-strata-io/strata-nathan-repo/main/Login/images/logo_sonar_dark.svg");
+    background-image: url("https://nathan-strata-io.github.io/strata-nathan-repo/Login/images/logo_sonar_dark.svg");
 }
 
 .website-logo .logo img {
@@ -48,7 +48,7 @@ body {
 }
 
 .website-logo-inside .logo {
-    background-image: url("https://raw.githubusercontent.com/nathan-strata-io/strata-nathan-repo/main/Login/images/logo_sonar_dark.svg");
+    background-image: url("https://nathan-strata-io.github.io/strata-nathan-repo/Login/images/logo_sonar_dark.svg");
 }
 
 .website-logo-inside .logo img {
@@ -89,7 +89,7 @@ body {
 
 .img-holder .bg {
     opacity: 1;
-    background-image: url(https://raw.githubusercontent.com/nathan-strata-io/strata-nathan-repo/main/Login/images/img_sonar.jpg);
+    background-image: url(https://nathan-strata-io.github.io/strata-nathan-repo/Login/images/img_sonar.jpg);
 }
 
 .img-holder .bottom-view {
@@ -558,10 +558,10 @@ body {
     }
 
     .website-logo .logo {
-    background-image: url(https://raw.githubusercontent.com/nathan-strata-io/strata-nathan-repo/main/Login/images/logo_sonar_dark.svg);
+    background-image: url(https://nathan-strata-io.github.io/strata-nathan-repo/Login/images/logo_sonar_dark.svg);
     }
 
     .form-body.without-side .website-logo .logo {
-    background-image: url(https://raw.githubusercontent.com/nathan-strata-io/strata-nathan-repo/main/Login/images/logo_sonar_dark.svg);
+    background-image: url(https://nathan-strata-io.github.io/strata-nathan-repo/Login/images/logo_sonar_dark.svg);
     }
 }

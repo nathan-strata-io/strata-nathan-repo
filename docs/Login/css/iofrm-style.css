@@ -64,7 +64,7 @@ html, body {
 
 .website-logo .logo {
     display: inline-block;
-    background-image: url("https://raw.githubusercontent.com/nathan-strata-io/strata-nathan-repo/main/Login/webfonts/fa-solid-900.svg");
+    background-image: url("https://nathan-strata-io.github.io/strata-nathan-repo/Login/webfonts/fa-solid-900.svg");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -91,7 +91,7 @@ html, body {
 
 .website-logo-inside .logo {
     display: inline-block;
-    background-image: url("https://raw.githubusercontent.com/nathan-strata-io/strata-nathan-repo/main/Login/images/logo_sonar_dark.svg");
+    background-image: url("https://nathan-strata-io.github.io/strata-nathan-repo/Login/images/logo_sonar_dark.svg");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -281,7 +281,7 @@ html, body {
     top: 0;
     width: 100%;
     height: 100%;
-    background-image: url("https://raw.githubusercontent.com/nathan-strata-io/strata-nathan-repo/main/Login/images/img1.jpg");
+    background-image: url("https://nathan-strata-io.github.io/strata-nathan-repo/Login/images/img1.jpg");
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -1485,7 +1485,7 @@ input.sm-content {
 }
 
 .form-body.without-side .website-logo-inside .logo {
-    background-image: url("https://raw.githubusercontent.com/nathan-strata-io/strata-nathan-repo/main/Login/images/logo_sonar_dark.svg");
+    background-image: url("https://nathan-strata-io.github.io/strata-nathan-repo/Login/images/logo_sonar_dark.svg");
 }
 
 .form-body.without-side .form-holder .form-content ::-webkit-input-placeholder {
@@ -1879,7 +1879,7 @@ input.sm-content {
     }
 
     .website-logo .logo {
-        background-image: url("https://raw.githubusercontent.com/nathan-strata-io/strata-nathan-repo/main/Login/images/logo_sonar_dark.svg");
+        background-image: url("https://nathan-strata-io.github.io/strata-nathan-repo/Login/images/logo_sonar_dark.svg");
     }
 
     .form-body.without-side .img-holder {
@@ -1887,7 +1887,7 @@ input.sm-content {
     }
 
     .form-body.without-side .website-logo .logo {
-    background-image: url(https://raw.githubusercontent.com/nathan-strata-io/strata-nathan-repo/main/Login/images/logo_sonar_dark.svg);
+    background-image: url(https://nathan-strata-io.github.io/strata-nathan-repo/Login/images/logo_sonar_dark.svg);
     }
 
     .form-body.without-side .form-holder .form-content {
