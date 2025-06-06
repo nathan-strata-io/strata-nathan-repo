@@ -10,10 +10,10 @@ import (
 
 const (
 	// oldcoIDP represents the name of the IDP that oldco users authenticate against.
-	oldcoIDP = "Okta-OIDC-Fastpass-Mav12"
+	oldcoIDP = "oldco-Okta"
 	// newcoIDP represents the name of the IDP that newco users authenticate
 	// against.
-	newcoIDP = "Azure-M12-OIDC"
+	newcoIDP = "newco-Entra"
 	// newcoUserSuffix is used to distinguish newco users from oldco users.
 	newcoUserSuffix = "@domain.com"
 )
