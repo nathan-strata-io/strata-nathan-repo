@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Strata Identity</title>
+<link rel="stylesheet" type="text/css" href="https://nathan-strata-io.github.io/strata-nathan-repo/Login/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://nathan-strata-io.github.io/strata-nathan-repo/Login/css/fontawesome-all.min.css">
+<link rel="stylesheet" type="text/css" href="https://nathan-strata-io.github.io/strata-nathan-repo/Login/css/iofrm-style.css">
+<link rel="stylesheet" type="text/css" href="https://nathan-strata-io.github.io/strata-nathan-repo/Login/css/iofrm-theme18.css">
+</head>
+<body>
+<div class="form-body without-side">
+  <div class="row">
+    <div class="img-holder">
+      <div class="bg"></div>
+    </div>
+    <div class="form-holder">
+      <div class="form-content">
+        <div class="form-items">
+          <div class="logo"> <img class="logosize" src="https://nathan-strata-io.github.io/strata-nathan-repo/Login/images/logo_sonar_dark.svg" alt=""> </div>
+          <h3>Welcome to Sonar</h3>
+          <p>Select your identity provider</p>
+          <form action="/idps" method="post">
+            <select id="idp" name="idp" class="form-control" label="Default select example">
+              <option selected> 
+                      {{IDP_OPTIONS}} </option>
+            </select>
+            <div class="form-button">
+              <button id="submit" type="submit" class="ibtn">Sign in</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://nathan-strata-io.github.io/strata-nathan-repo/Login/js/jquery.min.js"></script> 
+<script src="https://nathan-strata-io.github.io/strata-nathan-repo/Login/js/popper.min.js"></script> 
+<script src="https://nathan-strata-io.github.io/strata-nathan-repo/Login/js/bootstrap.min.js"></script> 
+<script src="https://nathan-strata-io.github.io/strata-nathan-repo/Login/js/main.js"></script>
+</body>
+</html>

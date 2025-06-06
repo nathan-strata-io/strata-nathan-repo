@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strata Identity</title>
+    <link rel="stylesheet" type="text/css" href="https://nathan-strata-io.github.io/strata-nathan-repo/Login/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://nathan-strata-io.github.io/strata-nathan-repo/Login/css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://nathan-strata-io.github.io/strata-nathan-repo/Login/css/iofrm-style.css">
+    <link rel="stylesheet" type="text/css" href="https://nathan-strata-io.github.io/strata-nathan-repo/Login/css/iofrm-theme18.css">
+</head>
+<body>
+    <div class="form-body without-side">
+        
+        <div class="row">
+            <div class="img-holder">
+                <div class="bg"></div>
+               
+            </div>
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+						
+             		
+                        <h3>The Strata Magic</h3>
+                        <p>Choose what role you will be using in the application</p>
+                        <form action="/workrelations" method="post">
+                            <p><select id="wr" name="wr" class="form-control" label="Default select example">
+                                {{range .Workrelations}}
+                                <option value="{{.WrId}}">{{.WrDisplay}}</option>
+                                {{end}}
+                            </select> </p>
+                            <div class="form-button">
+                                <button id="submit" type="submit" class="ibtn">Go to application</button>
+                            </div>
+                        <p>Extensibility Examples&nbsp;</p>
+                        </form>
+						<article>
+				<div></div>
+                <button onclick="displayImage('https://nathan-strata-io.github.io/strata-nathan-repo/Login/images/Layer7.png')">Extending your IDP to Legacy Apps</button>
+				<button onclick="displayImage('https://nathan-strata-io.github.io/strata-nathan-repo/Login/images/DB.png')">Runtime Data Execution</button>
+                <button onclick="displayImage('https://strata-io.github.io/demo-artifacts/Demo/Terry/multi-architecture.png')">Architecture</button>
+			
+				<div id="image-container"></div>
+				<script>
+					// Function to display image
+					function displayImage(imageSrc) {
+						const imageContainer = document.getElementById('image-container');
+						
+						// Clear any existing images in the container
+						imageContainer.innerHTML = '';
+			
+						// Create new image element
+						const img = document.createElement('img');
+						img.src = imageSrc;
+						
+						// Append the image to the container
+						imageContainer.appendChild(img);
+					}
+				</script>
+				</article>
+                        
+                        </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://nathan-strata-io.github.io/strata-nathan-repo/Login/js/jquery.min.js"></script> 
+        <script src="https://nathan-strata-io.github.io/strata-nathan-repo/Login/js/popper.min.js"></script> 
+        <script src="https://nathan-strata-io.github.io/strata-nathan-repo/Login/js/bootstrap.min.js"></script> 
+        <script src="https://nathan-strata-io.github.io/strata-nathan-repo/Login/js/main.js"></script>
+</body>
+</html>
